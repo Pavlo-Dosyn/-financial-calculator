@@ -1,0 +1,120 @@
+body {
+  transition: 2s;
+  background: #f3e5f5;
+  color: #4a148c;
+  max-width: 750px;
+  margin: 0 auto;
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+}
+
+#swich-btn2 {
+  position: relative;
+  right: 350px;
+  height: 30px;
+  width: auto;
+  text-align: center;
+  background: #ab47bc;
+  color: #ffffff;
+  border-radius: 12px;
+  border: 1px solid #ab47bc;
+  margin: 20px;
+}
+
+#swich-btn2:hover {
+  color: #4a148c;
+  background: #e3f2fd;
+  border: 1px solid #e3f2fd;
+  transition: all 0.3s ease-in-out;
+}
+
+#swich-btn2:active {
+  transform: translateY(5px);
+  box-shadow: 0 2px #ffffff 0 5px 10px;
+}
+
+#btn-calculate {
+  background: #ab47bc;
+  color: #ffffff;
+  width: 600px;
+  border: 1px solid #81c784;
+  border-radius: 12px;
+  height: 40px;
+  margin-top: 10px;
+}
+
+#btn-calculate:hover {
+  color: #ffffff;
+  background: #2563eb;
+  transition: all 0.3s ease-in-out;
+}
+
+#btn-calculate:active {
+  transform: translateY(5px);
+  box-shadow: 0 2px #2563eb, 0 5px 10px;
+}
+
+.resultt {
+  color: #4a148c;
+  text-align: center;
+  border: 1px solid #ce93d8;
+  border-radius: 12px;
+  box-shadow: 0 0 10px #ce93d8;
+  margin: 30px;
+  width: 600px;
+  position: relative;
+  right: 30px;
+}
+
+h1 {
+  font-weight: 700;
+}
+
+p {
+  font-weight: 300;
+}
+
+.container {
+  position: relative;
+  bottom: 30px;
+  margin: 40px;
+}
+
+.input {
+  width: 400px;
+  height: 21px;
+  border-radius: 10px;
+}
+
+.error {
+  border: 1px solid red;
+  box-shadow: 0 0 10px rgba(255, 85, 85, 0.5);
+  border-radius: 12px;
+  height: 45px;
+  text-align: center;
+  margin: 30px;
+  position: relative;
+  right: 30px;
+}
+
+.costs {
+  color: red;
+}
+
+.profit {
+  color: green;
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+.fade-in {
+  opacity: 0;
+  animation: fadeIn 1s ease-in-out forwards;
+}
