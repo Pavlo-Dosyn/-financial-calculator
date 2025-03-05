@@ -136,7 +136,7 @@ p {
 }
 
 @media (max-width: 420px) {
-  #swich-btn {
+  #swich-btn3 {
     left: 30%;
   }
   .input {
@@ -146,7 +146,7 @@ p {
   #btn-calculate {
     width: 60%;
     position: relative;
-    left: 60px;
+    left: 65px;
   }
   .resultt {
     width: auto;
@@ -156,6 +156,6 @@ p {
 
   .adaptive {
     position: relative;
-    left: 60px;
+    left: 65px;
   }
 }
