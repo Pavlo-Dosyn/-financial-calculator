@@ -147,7 +147,7 @@ p {
   #btn-calculate {
     width: 60%;
     position: relative;
-    left: 60px;
+    left: 65px;
   }
   .resultt {
     width: auto;
@@ -157,6 +157,6 @@ p {
 
   .adaptive {
     position: relative;
-    left: 60px;
+    left: 65px;
   }
 }
