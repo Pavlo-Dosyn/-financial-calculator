@@ -21,6 +21,15 @@ btnCalculate.onclick = function () {
   ) {
     result.innerHTML =
       "<div class = 'error fade-in'><p>Будь ласка, введіть числові значення!</p></div>";
+  } else if (
+    rent < 0 ||
+    utilities < 0 ||
+    sales1 < 0 ||
+    sales2 < 0 ||
+    additionalCosts < 0
+  ) {
+    result.innerHTML =
+      "<div class = 'error fade-in'><p>Будь ласка, введіть додатні числа!</p></div>";
   } else {
     let goodSold = sales1 + sales2;
     let cost = goodSold / (1 + 0.3);
