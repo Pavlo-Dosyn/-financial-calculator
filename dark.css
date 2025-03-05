@@ -119,3 +119,44 @@ p {
   opacity: 0;
   animation: fadeIn 1s ease-in-out forwards;
 }
+
+@media (max-width: 670px) {
+  .container {
+    margin: auto;
+  }
+  .input {
+    width: 60%;
+  }
+
+  #btn-calculate {
+    width: 60%;
+  }
+  .resultt {
+    width: auto;
+  }
+}
+
+@media (max-width: 420px) {
+  #swich-btn {
+    left: 30%;
+  }
+  .input {
+    width: 60%;
+  }
+
+  #btn-calculate {
+    width: 60%;
+    position: relative;
+    left: 60px;
+  }
+  .resultt {
+    width: auto;
+    position: relative;
+    left: 2px;
+  }
+
+  .adaptive {
+    position: relative;
+    left: 60px;
+  }
+}
